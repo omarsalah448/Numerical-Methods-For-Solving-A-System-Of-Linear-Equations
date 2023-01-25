@@ -1,7 +1,29 @@
 # Numerical-Methods-For-Solving-A-System-Of-Linear-Equations
-Numerical-Methods-For-Solving-A-System-Of-Linear-Equations
+Numerical methods for solving a system of linear equations
 
-## Analysis for the behavior of different examples:
+## User Manual
+Run GUI.py
+choose the method for solving
+enter each equation seperately then press ok
+enter the required parameters then solve
+![img](images/gui1.jpg)
+
+or you can put the data in a file
+Reading from files will follow the following template:
+1st line: number of equations
+2nd line: Method Name (e.g. ‘Gaussian-elimination)
+3rd line --> nth line: equations
+last line: Space separated initial points (e.g. 1.1 2)
+
+A sample file in this case will be: 
+3
+Gaussian-elimination 
+3*a + 2*b + c - 6 
+2*a + 3*b - 7 
+2*c - 4 
+![img](images/gui2.jpg)
+
+### Analysis for the behavior of different examples:
 ❖ Gaussian Elimination
 Example 1) 4*a-b+c-4
 a+6*b+2*c-9
