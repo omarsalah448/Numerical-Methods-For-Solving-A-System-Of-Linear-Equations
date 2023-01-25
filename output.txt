@@ -1,0 +1,11 @@
+Method Name: lu-decomposition
+x2		x1		x0		
+0.7830188	1.4716981	1.1509433	
+
+
+Number Of Iterations = 0
+Precision = 9
+Excecution Time = 0.00800 secs
+
+
+
